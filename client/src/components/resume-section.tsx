@@ -6,11 +6,30 @@ export default function ResumeSection() {
   return (
     <section id="resume" className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4" data-testid="resume-title">Resume</h2>
-          <p className="text-lg text-muted-foreground" data-testid="resume-subtitle">
+          <p className="text-lg text-muted-foreground mb-6" data-testid="resume-subtitle">
             My professional experience and technical expertise
           </p>
+
+          {/* Resume Buttons */}
+          <div className="text-center">
+            <a
+              href={`${import.meta.env.BASE_URL}Vedansh_Arya_Resume.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors mr-4"
+            >
+              View Resume
+            </a>
+            <a
+              href={`${import.meta.env.BASE_URL}Vedansh_Arya_Resume.pdf`}
+              download
+              className="border border-border px-6 py-3 rounded-lg font-medium hover:bg-secondary transition-colors"
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
 
         {/* Education */}
@@ -189,3 +208,5 @@ export default function ResumeSection() {
     </section>
   );
 }
+
+

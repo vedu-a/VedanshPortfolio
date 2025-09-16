@@ -15,7 +15,7 @@ export default function ProjectsSection() {
             <div className="h-64 bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center border-b border-border" data-testid="project-cancer-mockup">
               <div className="text-center">
                 <i className="fas fa-dna text-6xl text-purple-600 mb-4"></i>
-                <p className="text-muted-foreground font-medium">ML Model Visualization</p>
+                <p className="text-muted-foreground font-medium"></p>
               </div>
             </div>
             <div className="p-8">
@@ -67,7 +67,7 @@ export default function ProjectsSection() {
             <div className="h-64 bg-gradient-to-br from-green-500/20 to-teal-500/20 flex items-center justify-center border-b border-border" data-testid="project-game-mockup">
               <div className="text-center">
                 <i className="fas fa-gamepad text-6xl text-green-600 mb-4"></i>
-                <p className="text-muted-foreground font-medium">Game Interface Mockup</p>
+                <p className="text-muted-foreground font-medium"></p>
               </div>
             </div>
             <div className="p-8">

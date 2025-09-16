@@ -1,3 +1,5 @@
+import myPhoto from "@/assets/me.png"; // 👈 make sure your photo is in client/src/assets/
+
 export default function HeroSection() {
   const scrollToContact = () => {
     const element = document.getElementById("contact");
@@ -58,16 +60,28 @@ export default function HeroSection() {
           </div>
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-80 rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center border border-border shadow-2xl" data-testid="hero-photo-placeholder">
-                <div className="text-center">
-                  <i className="fas fa-user text-6xl text-muted-foreground mb-4"></i>
-                  <p className="text-muted-foreground font-medium">Professional Photo</p>
-                </div>
+              <div
+                className="w-80 h-80 rounded-2xl overflow-hidden border border-border shadow-2xl"
+                data-testid="hero-photo"
+              >
+                <img
+                  src={myPhoto}
+                  alt="Vedansh Arya"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <div className="absolute -top-4 -right-4 w-20 h-20 bg-accent rounded-full flex items-center justify-center shadow-lg" data-testid="hero-code-icon">
+
+              <div
+                className="absolute -top-4 -right-4 w-20 h-20 bg-accent rounded-full flex items-center justify-center shadow-lg"
+                data-testid="hero-code-icon"
+              >
                 <i className="fas fa-code text-accent-foreground text-xl"></i>
               </div>
-              <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-primary rounded-full flex items-center justify-center shadow-lg" data-testid="hero-brain-icon">
+
+              <div
+                className="absolute -bottom-4 -left-4 w-16 h-16 bg-primary rounded-full flex items-center justify-center shadow-lg"
+                data-testid="hero-brain-icon"
+              >
                 <i className="fas fa-brain text-primary-foreground"></i>
               </div>
             </div>
