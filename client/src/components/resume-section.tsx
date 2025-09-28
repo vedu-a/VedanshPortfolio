@@ -45,7 +45,7 @@ export default function ResumeSection() {
                   Bachelor of Science in Computer Science
                 </h4>
                 <p className="text-accent font-medium" data-testid="university-name">Georgia Institute of Technology</p>
-                <p className="text-muted-foreground" data-testid="graduation-info">December 2025 • Atlanta, GA</p>
+                <p className="text-muted-foreground" data-testid="graduation-info">May 2026 • Atlanta, GA</p>
                 <div className="mt-3">
                   <p className="font-medium">Concentrations:</p>
                   <p className="text-muted-foreground" data-testid="concentrations">Intelligence and Modeling/Simulations</p>

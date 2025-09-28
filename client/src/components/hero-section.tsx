@@ -35,11 +35,11 @@ export default function HeroSection() {
               Hi, I'm <span className="gradient-text">Vedansh Arya</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8" data-testid="hero-bio">
-              I'm a Computer Science student at Georgia Tech with concentrations in Intelligence and Modeling/Simulations, 
-              passionate about building scalable software solutions and leveraging machine learning to solve complex problems. 
-              With hands-on experience at Amazon and Elevance Health, I've developed full-stack applications, optimized data 
-              processing systems, and built ML models achieving 96% accuracy. I thrive on transforming innovative ideas into 
-              production-ready solutions that make a real impact.
+              I’m a Computer Science student at Georgia Tech concentrating in Intelligence and Modeling/Simulations. 
+              I’m drawn to these areas because they sit at the intersection of theory and real-world impact—modeling helps us understand complex systems, 
+              while intelligence enables machines to learn and adapt within them. I’m passionate about building scalable software and applying machine 
+              learning to solve challenging problems, from optimizing large-scale data pipelines to designing predictive models. Through internships 
+              at Amazon and Elevance Health, I’ve transformed innovative ideas into production-ready solutions that improve efficiency and decision-making.
             </p>
             <div className="flex flex-wrap gap-4">
               <button
